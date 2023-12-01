@@ -1,8 +1,9 @@
 *
 {
-	margin: auto;
-	padding: auto;
-	font-family: sans-serif;
+	margin: 0;
+        padding: 0;
+        justify-content: center;
+ 	font-family: sans-serif;
 }
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG/g1.jpg);
