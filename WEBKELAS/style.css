@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG/g1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	margin: 10px;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+.title h1{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 55%;
+	left: 38%;
+	transform: translate(-1%);
+}
+.btn1{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn1:hover{
+	background-color: #fff;
+	color: #000
+}
+.member{
+	position: absolute;
+	top: 100%;
+	left: 37%;
+}
+.member h1{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 70px;
+}
+.anggota{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG/g1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+section:nth-child(odd) {
+    background: #323946;
+
+}
+.jadwal{
+	position: relative;
+	top: 100%;
+	left: auto;
+	text-align: center;
+}
+.jadwal1 h1{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 70px;
+}
+.jadwal1{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG/g1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
