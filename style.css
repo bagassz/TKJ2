@@ -113,3 +113,7 @@ section:nth-child(odd) {
 	background-size: cover;
 	background-position: center;
 }
+.container {
+    width: 1000px;
+    min-height: 200px;
+}
