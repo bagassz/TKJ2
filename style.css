@@ -90,7 +90,7 @@ ul li a:hover{
 }
 .anggota{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG/g1.jpg);
-	height: 100vh;
+	height: auto;
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
@@ -112,7 +112,7 @@ section:nth-child(odd) {
 }
 .jadwal1{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG/g1.jpg);
-	height: 100vh;
+	height: autovh;
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
